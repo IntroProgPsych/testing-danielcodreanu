@@ -12,8 +12,15 @@ class TestAddFunction(unittest.TestCase):
     # - Use clear method names, e.g. test_add_positive_numbers, etc.
 
     # write your tests here:
-    pass
-   
+    def testnumbers(self):
+        self.assertEqual(add(8,7), 15)
+        self.assertEqual(add(-5,-9), -14)
+        self.assertEqual(add(4,6),10)
+        
+
+
+
+
 
 
 if __name__ == "__main__":

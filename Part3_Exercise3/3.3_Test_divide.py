@@ -12,7 +12,8 @@ class TestSafeDivide(unittest.TestCase):
     # - Use clear method names, e.g. test_division_integers, etc.
     #
     # write your tests here
-    pass
+    def testnumbers(self):
+        self.assertEqual(add(10, 3), 3.3)
 
 
 if __name__ == "__main__":
